@@ -21,7 +21,6 @@ player.on(
         'videoplayer-current-time',
         e.seconds
       );
-     
     }),
     1000
   )
