@@ -17,7 +17,7 @@ const updateFields = () => {
     JSON.parse(localStorage.getItem('feedback-form-state')).message || '';
 };
 
-clearFields = ev => {
+const clearFields = ev => {
   ev.preventDefault();
   console.log(JSON.parse(localStorage.getItem('feedback-form-state')));
   localStorage.clear();
