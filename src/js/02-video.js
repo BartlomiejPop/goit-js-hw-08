@@ -16,7 +16,7 @@ player.getVideoTitle().then(function (title) {
 player.on(
   'timeupdate',
   throttle(
-    (saveCurrentTime = e => {
+    ((e) => {
       const savedTime = localStorage.setItem(
         'videoplayer-current-time',
         e.seconds
